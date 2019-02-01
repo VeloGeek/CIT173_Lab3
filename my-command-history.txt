@@ -1,0 +1,353 @@
+    1  home
+    2  sed
+    3  ls
+    4  exit
+    5  cd ~/
+    6  mkdir CIT173_Lab2
+    7  echo $SHELL
+    8  echo $0
+    9  type bash
+   10  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   11  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   12  wc ~/CIT173_Lab2/my-phonebook.txt
+   13  cat ~/CIT173_Lab2/my-phonebook.txt | less
+   14  less ~/CIT173_Lab2/my-phonebook.txt 
+   15  cat ~/CIT173_Lab2/my-phonebook.txt | less
+   16  less ~/CIT173_Lab2/my-phonebook.txt 
+   17  tac ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-phonebook-reverse.txt
+   18  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+   19  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my-joined-phonebook.txt
+   20  unexpand -t 2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   21  sort ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-sorted-phonebook.txt
+   22  nl ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt
+   23  head -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   24  tail -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt
+   25  history > ~/CIT173_Lab2/my-command-history.txt
+   26  git init
+   27  git remote add origin https://github.com/velogeek/CIT173_Lab2.git
+   28  git add --all
+   29  git commit -m "Initial commit."
+   30  git congig --global user.email matthewspears@gmail.com
+   31  git congig user.email matthewspears@gmail.com
+   32  git congig --global user.email "matthewspears@gmail.com"
+   33  git push origin master
+   34  git config --global user.name velogeek
+   35  ls
+   36  cd CIT173_Lab2
+   37  ls
+   38  ls -al
+   39  cd ..
+   40  ls
+   41  cls
+   42  clear
+   43  LS
+   44  ls
+   45  mkdir CIT173_Lab1
+   46  export FAVORITE_ANIMAL=dog
+   47  export MY_AGE=37
+   48  export BEST_PIZZA_TOPPING=cheese
+   49  export MY_MIDDLE_NAME=Kalo
+   50  export MY_CAR_MAKE=VW
+   51  env > ~/CIT173_Lab1/my-env.txt
+   52  uname -a > ~/CIT173_Lab1/my-sys-info.txt
+   53  cat /etc/group
+   54  cat /etc/group | tee ~/CIT173_Lab1/my-groups.txt
+   55  head - 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file1.dat
+   56  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file1.dat
+   57  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file2.dat
+   58  cat ~/CIT173_Lab1/file1.dat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+   59  sed 's/1/monkey/g' ~/CIT173_Lab1/my-concat-file.dat > ~/CIT173_Lab1/monkey.dat
+   60  git config --global user.name velomatt
+   61  git config --global user.email matthewspears@gmail.com
+   62  clear
+   63  cd /
+   64  ls
+   65  ls -al
+   66  cd ~
+   67  ls
+   68  ls -al
+   69  cd ~/CIT173_Lab1/
+   70  ls -al
+   71  git init
+   72  git remote add origon https://github.com/velomatt/CIT173_Lab1.git
+   73  git add -all
+   74  git add --all
+   75  git commit -m "My first lab assigment"
+   76  git push origin master
+   77  git remote add origin https://github.com/velomatt/CIT173_Lab1.git
+   78  git push origin master
+   79  clear
+   80  cd /
+   81  clear
+   82  cd ~
+   83  cd /
+   84  ls -al
+   85  cd /home/
+   86  ls
+   87  cd matt/
+   88  ls
+   89  cd /
+   90  clear
+   91  ls -al
+   92  cd ~
+   93  ls -ls
+   94  mkdir CIT173_Lab1
+   95  ls
+   96  export FAVORITE_ANIMAL=dog
+   97  env > ~/CIT173_Lab1/my-env.txt
+   98  env
+   99  env | less
+  100  env > ~/CIT173_Lab1/my-env.txt
+  101  uname
+  102  uname -a
+  103  uname -a > ~/CIT173_Lab1/my-sys-info.txt
+  104  cat "tom"
+  105  cat /etc/group
+  106  cat /etc/group | tee ~/CIT173_Lab1/my-groups.txt 
+  107  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file1.dat 
+  108  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file2.dat 
+  109  cat ~/CIT173_Lab1/file1.dat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+  110  sed 's/1/monkey/g' ~/CIT173_Lab1/my-concat-file.dat > ~/CIT173_Lab1/monkey.dat 
+  111  git config --global user.name velomatt
+  112  git config --global user.email matthewspears@gmail.com
+  113  git init
+  114  git remote add origin https://github.com/velomatt/CIT173_Lab1.git
+  115  git add --all
+  116  git commit -m "My first lab assignment."
+  117  git push orign master
+  118  cat /etc/group
+  119  cat ~/CIT173_Lab1/file1.dat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+  120  less ~/CIT173_Lab1/monkey.dat 
+  121  clear
+  122  sed 's/1/monkey/g' ~/CIT173_Lab1/my-concat-file.dat > ~/CIT173_Lab1/monkey.dat 
+  123  ls
+  124  ls -al
+  125  mkdir CIT173_Lab1
+  126  cd ~
+  127  clear
+  128  ls
+  129  mkdir CIT173_Lab2
+  130  ls
+  131  echo $SHELL
+  132  cd ~/CIT173_Lab1/
+  133  cd ~/CIT173_Lab2
+  134  echo $SHELL
+  135  echo $0
+  136  ls ~
+  137  ls -al ~
+  138  echo $0
+  139  type bash
+  140  ls -l ~
+  141  ls -la ~
+  142  type bash
+  143  cd ~
+  144  ls 
+  145  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+  146  ls CIT173_Lab2_Files/
+  147  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+  148  wc ~/CIT173_Lab2/my-phonebook.txt 
+  149  man less
+  150  ls
+  151  less ~/CIT173_Lab2/my-phonebook.txt 
+  152  vi
+  153  cat ~/CIT173_Lab2/my-phonebook.txt 
+  154  cat ~/CIT173_Lab2/my-phonebook.txt | less
+  155  less ~/CIT173_Lab2/my-phonebook.txt 
+  156  cat ~/CIT173_Lab2/my-phonebook.txt | less
+  157  >
+  158  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txtta
+  159  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt
+  160  ls ~/CIT173_Lab2_Files/
+  161  ls ~
+  162  tac ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonebook-reverse.txt
+  163  tac ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-phonebook-reverse.txt
+  164  man unexpand
+  165  less ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  166  clear
+  167  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my-joined-phonebook.txt 
+  168  unexpand -t 2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  169  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  170  cat ~/CIT173_Lab2/my-phonebook.txt 
+  171  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  172  unexpand -t 2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  173  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt 
+  174  sort ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-sorted-phonebook.txt 
+  175  cat ~/CIT173_Lab2/my-sorted-phonebook.txt 
+  176  nl ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt 
+  177  cat ~/CIT173_Lab2/my-numbered-phonebook.txt 
+  178  head ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt 
+  179  head ~/CIT173_Lab2/my-head-phonebook.txt 
+  180  head -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt 
+  181  head ~/CIT173_Lab2/my-head-phonebook.txt 
+  182  tail -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt 
+  183  cat ~/CIT173_Lab2/my-tail-phonebook.txt 
+  184  cd CIT173_Lab2
+  185  ls -al
+  186  git init
+  187  git remote add origion https://github.com/velomatt/CIT173_Lab2.git
+  188  git add -all
+  189  git add --all
+  190  git commit -m "Initial commit."
+  191  git push origin master
+  192  git remote add origion https://github.com/velogeek/CIT173_Lab2.git
+  193  git add --all
+  194  git commit -m "Initial commit."
+  195  git push origin master
+  196  git remote add origion https://github.com/VeloGeek/CIT173_Lab2.git
+  197  git init
+  198  git remote add origin https://github.com/VeloGeek/CIT173_Lab2.git
+  199  git add --all
+  200  git commit -m "Initial commit."
+  201  git push origin master
+  202  poweroff
+  203  ls
+  204  echo $LS_COLORS
+  205  ORIGIONAL_COLORS=$LS_COLORS
+  206  ls
+  207  ls -al
+  208  echo ORIGIONAL_COLORS 
+  209  $ORIG_COLORS=$LS_COLORS
+  210  echo $ORIG_COLOR
+  211  ORIG_COLORS=$LS_COLORS
+  212  echo $ORIG_COLORS
+  213  LS
+  214  ls
+  215  LS_COLORS="di=1;31"
+  216  ls
+  217  LS_COLORS="di=1;36"
+  218  ls
+  219  reboot
+  220  ls
+  221  vi .bashrc 
+  222  ls --color=auto
+  223  ls --color
+  224  man ls --color
+  225  ls --color=always
+  226  vi .bashrc 
+  227  logoff
+  228  logout
+  229  ls
+  230  vi .bashrc 
+  231  logout
+  232  ls
+  233  vi .bashrc 
+  234  logout
+  235  ls
+  236  ls -al
+  237  shutdown
+  238  poweroff
+  239  ls
+  240  top
+  241  clear
+  242  ping 127.0.0.1 &
+  243  top
+  244  ps
+  245  kill 13020
+  246  clear
+  247  mkdir
+  248  mkdir CIT173_Lab3
+  249  ls
+  250  whoami
+  251  cd /
+  252  ls
+  253  cd ~
+  254  ls
+  255  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+  256  ls
+  257  ls -al
+  258  cd CIT173_Lab2_Files/
+  259  ls -al
+  260  cd ../CIT173_Lab3_Files/
+  261  ls -al
+  262  man -k reboot
+  263  man -k man
+  264  cd ../CIT173_Lab3/
+  265  ls -al
+  266  man tar
+  267  ls
+  268  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz 
+  269  ls phone
+  270  cat phone
+  271  cat phonebook1.txt 
+  272  ls -al
+  273  sudo cat phonebook1.txt 
+  274  ls -al
+  275  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook1.txt 
+  276  sudo cat ~/CIT173_Lab3/phonebook1.txt 
+  277  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook2.txt 
+  278  sudo cat ~/CIT173_Lab3/phonebook2.txt 
+  279  su
+  280  sudo -i
+  281  ls -al
+  282  cat phonebook1.txt 
+  283  sudo -i
+  284  ls
+  285  man apt
+  286  clear
+  287  apt-get install python3-minimal
+  288  sudo apt-get install python3-minimal
+  289  apt list --installed > ~/CIT173_Lab3/my-installed-1.txt
+  290  man apt
+  291  ls
+  292  clear
+  293  apt list --installed > ~/CIT173_Lab3/my-installed-1.txt
+  294  ls -al
+  295  cat my-installed-1.txt 
+  296  ls 
+  297  rm my-installed-1.txt 
+  298  cat my-installed-1.txt 
+  299  apt list --installed > ~/CIT173_Lab3/my-installed-1.txt
+  300  cat my-installed-1.txt 
+  301  ls
+  302  ls -al
+  303  cd ..
+  304  ls
+  305  ls -al
+  306  mkdir test
+  307  ls
+  308  cd test/
+  309  ls
+  310  whoami > me.txt
+  311  ls
+  312  cat me.txt 
+  313  top >> me.txt 
+  314  cat me.txt 
+  315  less me.txt 
+  316  ls
+  317  cat me.txt | less
+  318  man less
+  319  ls
+  320  cd ..
+  321  ls
+  322  ls /home/
+  323  cd /home/matt/CIT173_Lab3/
+  324  cd ..
+  325  ls
+  326  rm -rf test/
+  327  ls
+  328  cd CIT173_Lab3/
+  329  ls
+  330  ls -al
+  331  cd ..
+  332  ls
+  333  cd CIT173_Lab
+  334  cd CIT173_Lab/
+  335  cd CIT173_Lab3/
+  336  ls -al
+  337  python3 ~/CIT173_Lab3_Files/hello.py 
+  338  python3 ~/CIT173_Lab3_Files/hello.py > ~/CIT173_Lab3/my-python-output.txt
+  339  ls
+  340  ls -al
+  341  cat my-phonebook.txt 
+  342  cat my-python-output.txt 
+  343  python3 ~/CIT173_Lab3_Files/hello.py 
+  344  cat my-python-output.txt 
+  345  python3 ~/CIT173_Lab3_Files/infinite.py &
+  346  ps
+  347  ps -A > ~/CIT173_Lab3/my-processes-1.txt
+  348  kill -s SIGTERM 17148
+  349  man kill
+  350  ps -A > ~/CIT173_Lab3/my-processes-2.txt
+  351  sudo apt-get remove python3-minimal 
+  352  apt list --installed > ~/CIT173_Lab3/my-installed-2.txt
+  353  history > ~/CIT173_Lab3/my-command-history.txt
